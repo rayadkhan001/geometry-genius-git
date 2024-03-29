@@ -134,6 +134,35 @@
             </div>
           </div>
 
+          <!-- pentagon card -->
+          <div class="card w-96 bg-base-100 shadow-xl">
+            <figure><img src="images/pentagon.png" alt="" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">Pentagon!</h2>
+              <p class="text-2xl">Area (A) = 0.5 * p * b</p>
+
+              <div class="flex gap-5">
+                <!-- pentagon base -->
+                <input class="w-24 text-2xl p-2 rounded-sm" id="pentagon-perimeter" type="text" name="" placeholder="Peri">
+                <span class="mr-4 ml-2">cm</span>
+                
+                <!-- pentagon height -->
+                <input class="w-24 text-2xl p-2 rounded-sm" id="pentagon-apothem" type="text" name="" placeholder="Apo">
+                <span>cm</span>
+              </div>
+
+              <div>
+                <div>
+                  <p class="text-2xl">Area: <span id="pentagon-area">0</span> <span>cm<sup>2</sup></span></p>
+                </div>
+              </div>
+
+              <div class="card-actions justify-end">
+                <button onclick="calculatePentagonArea()" class="btn btn-primary w-full">Calculate</button>
+              </div>
+
+            </div>
+          </div>
 
         </div>
         <!-- area calculation container -->
@@ -153,5 +182,6 @@
     <script src="scripts/rectangle-area.js"></script>
     <script src="scripts/parallelogram.js"></script>
     <script src="scripts/rhombus.js"></script>
+    <script src="scripts/pentagon-area.js"></script>
   </body>
 </html>

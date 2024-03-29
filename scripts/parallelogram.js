@@ -30,6 +30,7 @@
 //     return base;
 // }
 
+// kom code a kaj kora hoise. upore atto gula code lekha lagthese na.
 function calculateParallelogramArea(){
     const base = getInputValueById('parallelogram-base');
     // console.log('Base Value', base);

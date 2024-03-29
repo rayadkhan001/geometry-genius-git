@@ -2,7 +2,7 @@
 function calculateRhombusArea(){
     // get diagonal-1 of the rhombus
     const diagonal1Input  = document.getElementById('rhombus-d1');
-    const diagonal1Text  = diagonal1Input.value;
+    const diagonal1Text = diagonal1Input.value;
     const diagonal1 = parseFloat(diagonal1Text);
     console.log(diagonal1);
 
